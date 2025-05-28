@@ -1,0 +1,21 @@
+name: base-ml
+channels:
+  - bioconda
+  - conda-forge
+  - pytorch
+dependencies:
+  - cpuonly
+  - fitter
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - python=3.11
+  - pytorch
+  - scikit-learn
+  - scipy
+  - seaborn
+  - torchvision
+
+prefix: "/home/user920/miniconda3/envs/base-ml"
